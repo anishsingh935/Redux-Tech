@@ -8,8 +8,6 @@ function Index() {
     return (
         <div>
             <div>Section {value} </div>
-            <button onClick={() => dispatch(increaseValue(1))}>Increment data</button>
-            <button onClick={() => dispatch(decreaseValue(1))}>Decrement data</button>
         </div>
     )
 }

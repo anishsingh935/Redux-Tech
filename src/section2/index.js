@@ -7,7 +7,6 @@ function Index() {
   const dispatch = useDispatch();
   return (
     <div>
-      <div>Section {value} </div>
       <button onClick={() => dispatch(increaseValue(5))}>Increment data</button>
       <button onClick={() => dispatch(decreaseValue(5))}>Decrement data</button>
     </div>
