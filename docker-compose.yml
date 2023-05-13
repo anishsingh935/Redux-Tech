@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  react-app:
+    image: webpage-container
+    stdin_open: true
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./:/my-app:delegated"
+      - /my-app/node_modules/

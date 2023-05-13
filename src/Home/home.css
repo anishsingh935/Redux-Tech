@@ -1,0 +1,1184 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+body {
+    background-image: url('../images/home-bg.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* min-height: 800px; */
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeue-Regular.ttf");
+}
+
+.home__getStarted-primary {
+    min-width: 160px;
+    min-height: 25px;
+    margin-top: 3%;
+    background: #FDBC2A;
+    border-radius: 9.77px;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.48px;
+    border: 0;
+    width: 195.56px;
+    height: 57px;
+    margin-left: 15.7%;
+}
+
+.home__getStarted-primary:focus {
+    outline: none;
+}
+
+.home__mainConatiner {
+    width: 100%;
+    display: flex;
+    float: left;
+}
+
+.home__leftSideContainer {
+    padding-top: 7.55%;
+    width: 53%;
+    float: left;
+}
+
+.home__rightSideContainer {
+    padding-top: 5%;
+    width: 43.5%;
+    float: left;
+}
+
+.header__chavron_down {
+    display: block;
+    margin: auto;
+}
+
+.home__headerHeroTextTitle {
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 15.7%;
+    margin: 0;
+    margin-top: 4.1%;
+}
+
+.home__headerHeroTextSpan {
+    color: #2bfaa2;
+}
+
+.home__headerHeroTextDescription {
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 89.94%;
+    color: #ffffff;
+    /* margin-top: 22px; */
+    margin: 0px;
+    margin-top: 2.96%;
+    padding-left: 15.7%;
+    padding-right: 11%;
+}
+
+.home__secondPt {
+    width: 100%;
+    float: left;
+    padding-top: 12.1%;
+    padding-bottom: 8.82%;
+}
+
+.secondPt__header {
+    width: 100%;
+    text-align: center;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black;
+    position: relative;
+
+}
+
+.secondPt__header__underline {
+    width: 447px;
+    height: 13.68px;
+    background-color: #F0B000;
+    opacity: 0.4;
+    position: absolute;
+    top: 45px;
+    right: 18.4%;
+    z-index: -10;
+}
+
+.secondPt__bottom_header {
+    width: 100%;
+    text-align: center;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 29.32px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #8C98A4;
+    position: relative;
+    margin-top: 1.4%;
+}
+
+.secondPt__content {
+    width: 100%;
+    float: left;
+    margin-top: 6.12%;
+}
+
+.secondPt__content__1 {
+    width: 22.2%;
+    height: 22.2vw;
+    border-radius: 12px;
+    background-color: white;
+    float: left;
+    box-shadow: 0px 19.54466438293457px 39.08932876586914px 0px #03004D0A;
+    margin-left: 12.66%;
+    position: relative;
+}
+
+.secondPt__content__2 {
+    width: 22.2%;
+    height: 22.2vw;
+    border-radius: 12px;
+    background-color: white;
+    float: left;
+    box-shadow: 0px 19.54466438293457px 39.08932876586914px 0px #03004D0A;
+    margin-left: 2.1%;
+    position: relative;
+}
+
+.secondPt__content__img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 13%;
+}
+
+.secondPt__content__header {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 6.4%;
+}
+
+.secondPt__content__bottomHeader {
+    width: 88%;
+    text-align: center;
+    color: #8C98A4;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 6.8%;
+    padding-left: 6%;
+    padding-right: 6%;
+    /* padding-bottom: 16%; */
+}
+
+.downDots img {
+    width: 71.2%;
+    position: absolute;
+    top: 85.5%;
+    left: -15%;
+    z-index: 10;
+}
+
+.upDots img {
+    width: 74.7%;
+    position: absolute;
+    top: -8.9%;
+    right: -23%;
+    z-index: -10;
+}
+
+.circleDown img {
+    width: 94%;
+    position: absolute;
+    top: 57.9%;
+    left: -62.5%;
+    z-index: -10;
+}
+
+.home__thirdPt {
+    background-image: url('../images/bg3.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    float: left;
+    padding-top: 3.45%;
+    padding-bottom: 12.07%;
+}
+
+.thirdPt__header {
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    float: left;
+}
+
+.thirdPt__content {
+    width: 100%;
+    float: left;
+}
+
+.thirdPt__content__leftSide {
+    width: 38.21%;
+    padding-left: 7.81%;
+    float: left;
+}
+
+.thirdPt__content__leftSide img {
+    width: 100%;
+}
+
+.thirdPt__content__rightSide {
+    /* width: 53.9%; */
+    width: 34.5%;
+    padding-left: 8.09%;
+    float: left;
+    padding-top: 15.7%;
+}
+
+.thirdPt__content__rightSide__label {
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    width: 98%;
+}
+
+.thirdPt__content__rightSide__btn {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    padding-top: 7.5%;
+}
+
+.thirdPt__content__rightSide__btn button {
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 17.59px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black;
+    height: 55px;
+    width: 148px;
+    left: 896px;
+    top: 2027px;
+    border-radius: 9.772332191467285px;
+    border: none;
+    background-color: #FDBC2A;
+}
+
+.home__fourthPt {
+    width: 100%;
+    float: left;
+    padding-top: 7.4%;
+    padding-bottom: 7.8%;
+}
+
+.home__fourthPt__header {
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.row4__underline1 {
+    width: 40.1%;
+    height: .95vw;
+    background-color: rgba(240, 176, 0, .4);
+    position: absolute;
+    bottom: 6%;
+    z-index: -10;
+    left: 11%;
+}
+
+.row4__underline2 {
+    width: 45%;
+    height: .95vw;
+    background-color: rgba(240, 176, 0, .4);
+    position: absolute;
+    top: 36%;
+    z-index: -10;
+    left: 33%;
+}
+
+.home__fourthPt__content1 {
+    width: 83.33%;
+    float: left;
+    margin-left: 9.02%;
+    padding-right: 7.65%;
+
+}
+
+.home__fourthPt__content2 {
+    display: none;
+}
+
+.home__fourthPt__content__top {
+    width: 100%;
+    float: left;
+}
+
+.home__fourthPt__content__middle {
+    width: 100%;
+    float: left;
+}
+
+.home__fourthPt__content__below {
+    width: 100%;
+    float: left;
+}
+
+.row4__content {
+    width: 33.3%;
+    float: left;
+    padding-top: 4.4%;
+}
+
+.row4__content__img {
+    width: 19.8%;
+    float: left;
+}
+
+.row4__content__img img {
+    width: 100%;
+}
+
+.row4__content__content {
+    width: 50.6%;
+    float: left;
+    padding-left: 7.4%;
+    padding-right: 22.2%;
+}
+
+.row4__content1__content {
+    width: 62.14%;
+    float: left;
+    padding-left: 7.4%;
+    padding-right: 10.66%;
+}
+
+.row4__content__content__header {
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.row4__content__content__content {
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #999999;
+}
+
+.home__footer {
+    background-image: url('../images/footerBg.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    float: left;
+    padding-top: 7.704%;
+    padding-bottom: 1.8%;
+}
+
+.home__footer__leftSide {
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0.2823118567466736px;
+    text-align: left;
+    color: white;
+    width: 60.72%;
+    padding-left: 8.1%;
+    float: left;
+}
+
+.home__footer__rightSide {
+    width: 31.18%;
+    float: left;
+    /* padding-left: 5.62%; */
+    display: flex;
+    justify-content: center;
+}
+
+.home__footer__rightSide button {
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+    height: 58.63399887084961px;
+    width: 195.4466552734375px;
+    left: 1461.94091796875px;
+    top: 247.24002075195312px;
+    border-radius: 9.772332191467285px;
+    border: none;
+    background-color: #FDBC2A;
+    margin-top: 14%;
+}
+
+.home__footer__copyRight {
+    width: 90.7%;
+    float: left;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: white;
+    padding-right: 9.3%;
+    padding-top: 6.7%;
+
+}
+
+@media (min-width: 1024px) and (max-width: 1182px) {
+    @import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+  
+    .home__headerHeroTextTitle {
+        font-size: 42px;
+    }
+  
+  
+    .home__headerHeroTextDescription {
+        font-size: 20px;
+    }
+  
+    .secondPt__header {
+        font-size: 47px;
+    }
+  
+    .secondPt__header__underline {
+        top: 42px;
+        right: 18.4%;
+    }
+  
+    .secondPt__bottom_header {
+        font-size: 27.32px;
+    }
+  
+    .secondPt__content__header {
+        font-size: 21px;
+    }
+  
+    .secondPt__content__bottomHeader {
+        font-size: 16px;
+    }
+  
+  
+    .thirdPt__header {
+        font-size: 47px;
+    }
+  
+    .thirdPt__content__rightSide__label {
+        font-size: 21px;
+    }
+  
+    .thirdPt__content__rightSide__btn {
+        width: 100%;
+        float: left;
+        display: flex;
+        justify-content: center;
+        padding-top: 7.5%;
+    }
+  
+    .thirdPt__content__rightSide__btn button {
+        font-size: 17px;
+        height: 55px;
+        width: 148px;
+    }
+  
+    .home__fourthPt__header {
+        font-size: 46px;
+    }
+  
+    .row4__underline1 {
+        width: 40.1%;
+        height: .95vw;
+        bottom: 6%;
+        left: 11%;
+    }
+  
+    .row4__underline2 {
+        width: 45%;
+        height: .95vw;
+        top: 36%;
+        left: 33%;
+    }
+  
+    .home__footer__leftSide {
+        font-size: 42px;
+    }
+  
+    .home__footer__copyRight {
+        padding-top: 3%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    @import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+  
+    .home__headerHeroTextTitle {
+        font-size: 31px;
+        line-height: 36px;
+    }
+  
+  
+    .home__headerHeroTextDescription {
+        font-size: 16px;
+    }
+  
+    .home__getStarted-primary {
+        font-size: 16px;
+        width: 155.56px;
+        height: 47px;
+    }
+  
+    .secondPt__header {
+        font-size: 39px;
+    }
+  
+    .secondPt__header__underline {
+        top: 39px;
+        right: 18.4%;
+    }
+  
+    .secondPt__bottom_header {
+        font-size: 25.32px;
+        margin-top: .4%;
+    }
+  
+    .secondPt__content__1 {
+        width: 28.5%;
+        height: 31.2vw;
+        margin-left: 3.66%;
+    }
+  
+    .secondPt__content__2 {
+        width: 28.5%;
+        height: 31.2vw;
+    }
+  
+    .secondPt__content__header {
+        font-size: 19px;
+    }
+  
+    .secondPt__content__bottomHeader {
+        font-size: 15px;
+    }
+  
+    .home__thirdPt {
+        padding-top: 1.45%;
+        padding-bottom: 12.07%;
+    }
+  
+    .thirdPt__header {
+        font-size: 40px;
+    }
+  
+    .thirdPt__content__rightSide {
+        width: 40.5%;
+        padding-top: 5.7%;
+    }
+  
+    .thirdPt__content__rightSide__label {
+        font-size: 19px;
+    }
+  
+    .thirdPt__content__rightSide__btn button {
+        font-size: 15px;
+        height: 50px;
+        width: 132px;
+    }
+  
+    .home__fourthPt {
+        width: 100%;
+        float: left;
+        padding-top: 4.4%;
+        padding-bottom: 7.8%;
+    }
+  
+    .home__fourthPt__header {
+        font-size: 34px;
+        line-height: 48px;
+    }
+  
+    .row4__underline1 {
+        width: 40.1%;
+        height: .95vw;
+        bottom: 6%;
+        left: 11%;
+    }
+  
+    .row4__underline2 {
+        width: 45%;
+        height: .95vw;
+        top: 36%;
+        left: 33%;
+    }
+  
+    .home__fourthPt__content {
+        width: 90.33%;
+        margin-left: 4.02%;
+        padding-right: 4.65%; 
+    }
+    
+    
+    .row4__content__content {
+        width: 60.6%;
+        padding-right: 12.2%;
+    }
+    
+    .row4__content1__content {
+        width: 65.14%;
+        padding-left: 7.4%;
+        padding-right: 7.66%;
+    }
+    
+    .row4__content__content__header {
+        font-size: 21px;
+    }
+    
+    .row4__content__content__content {
+        font-size: 16px;
+    }
+  
+    .home__footer__leftSide {
+        font-size: 32px;
+        line-height: 40px;
+    }
+  
+    .home__footer__rightSide button {
+        font-size: 17px;
+        height: 48.63399887084961px;
+        width: 145.4466552734375px;
+    }
+  
+    .home__footer__copyRight {
+        padding-top: 4%;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+      @import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+  
+      .home__headerHeroTextTitle {
+          font-size: 30px;
+          line-height: 36px;
+          padding-left: 0px;
+      }
+  
+      .home__leftSideContainer {
+          padding-top: 1.55%;
+          width: 84%;
+          margin-left: 8%;
+          margin-right: 8%;
+          float: left;
+      }
+  
+      .home__rightSideContainer {
+          display: none;
+      }
+  
+      .home__headerHeroTextDescription {
+          font-size: 15px;
+          padding-left: 0px;
+          line-height: 17px;
+          margin-top: 1%;
+      }
+  
+      .home__getStarted-primary {
+          font-size: 15px;
+          width: 10%;
+          height: 37px;
+          margin-left: 0px;
+          min-width: 60px;
+          margin-top: 2%;
+          border-radius: 7.77px;
+          width: 125.56px;
+      }
+  
+      .home__secondPt {
+          padding-top: 18.1%;
+      }
+  
+      .secondPt__header {
+          font-size: 30px;
+          line-height: 38px;
+      }
+  
+      .secondPt__header__underline {
+          top: 24px;
+          right: 7.4%;
+      }
+  
+      .secondPt__bottom_header {
+          font-size: 21.32px;
+          margin-top: .4%;
+      }
+  
+      .secondPt__content__1 {
+          width: 28.5%;
+          height: 37.2vw;
+          margin-left: 3.66%;
+      }
+  
+      .secondPt__content__2 {
+          width: 28.5%;
+          height: 37.2vw;
+      }
+  
+      .secondPt__content__header {
+          font-size: 17px;
+      }
+  
+      .secondPt__content__bottomHeader {
+          font-size: 14px;
+      }
+  
+      .home__thirdPt {
+          padding-top: 1.45%;
+          padding-bottom: 12.07%;
+      }
+  
+      .thirdPt__header {
+          font-size: 40px;
+      }
+  
+      .thirdPt__content__leftSide {
+          display: none;
+      }
+      
+      .thirdPt__content__rightSide {
+          width: 84%;
+          padding-left: 8%;
+          padding-right: 8%;
+          padding-top: 5.7%;
+      }
+  
+      .thirdPt__content__rightSide__label {
+          font-size: 18px;
+          text-align: center;
+      }
+  
+      .thirdPt__content__rightSide__btn button {
+          font-size: 15px;
+          height: 50px;
+          width: 132px;
+      }
+  
+      .home__fourthPt {
+          width: 100%;
+          float: left;
+          padding-top: 4.4%;
+          padding-bottom: 7.8%;
+      }
+  
+      .home__fourthPt__header {
+          font-size: 26px;
+          line-height: 42px;
+      }
+  
+      .row4__underline1 {
+          width: 40.1%;
+          height: .95vw;
+          bottom: 10%;
+          left: 11%;
+      }
+  
+      .row4__underline2 {
+          width: 45%;
+          height: .95vw;
+          top: 35%;
+          left: 33%;
+      }
+  
+      .home__fourthPt__content1 {
+          display: none;
+      }
+      
+      .home__fourthPt__content2 {
+          display: block;
+          width: 90.33%;
+          margin-left: 4.02%;
+          padding-right: 4.65%;
+      }
+  
+      .row4__content {
+          width: 50%;
+          float: left;
+          padding-top: 7.4%;
+      }
+  
+      .row4__content__content {
+          width: 60.6%;
+          padding-right: 12.2%;
+      }
+  
+      .row4__content1__content {
+          width: 65.14%;
+          padding-left: 7.4%;
+          padding-right: 7.66%;
+      }
+  
+      .row4__content__content__header {
+          font-size: 20px;
+      }
+  
+      .row4__content__content__content {
+          font-size: 15px;
+      }
+  
+      .home__footer {
+          padding-top: 2%;
+          padding-bottom: 2%;
+      }
+  
+      .home__footer__leftSide {
+          font-size: 25px;
+          line-height: 28px;
+          width: 84%;
+          padding-left: 8%;
+          padding-right: 8%;
+          float: left;
+      }
+  
+      .home__footer__rightSide {
+          width: 20%;
+          padding-left: 8%;
+      }
+      
+      .home__footer__rightSide button {
+          font-size: 16px;
+          line-height: 0px;
+          height: 42.63399887084961px;
+      }
+      
+      .home__footer__copyRight {
+          width: 62.7%;
+          float: left;
+          font-family: 'Helvetica 45 Light', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 31px;
+          letter-spacing: 0px;
+          text-align: right;
+          color: white;
+          padding-right: 9.3%;
+          padding-top: 3.7%;
+      
+      }
+  }
+
+@media (max-width: 576px) {
+    @import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+    .home__headerHeroTextTitle {
+        font-size: 6.5vw;
+        line-height: 30px;
+        padding-left: 0px;
+    }
+
+    .home__leftSideContainer {
+        padding-top: 0%;
+        width: 84%;
+        margin-left: 8%;
+        margin-right: 8%;
+        float: left;
+    }
+
+    .home__rightSideContainer {
+        display: none;
+    }
+
+    .home__headerHeroTextDescription {
+        font-size: 4vw;
+        padding-left: 0px;
+        line-height: 17px;
+        margin-top: 2.5%;
+    }
+
+    .home__getStarted-primary {
+        font-size: 4vw;
+        width: 10%;
+        height: 37px;
+        margin-left: 0px;
+        min-width: 60px;
+        margin-top: 5%;
+        border-radius: 7.77px;
+        width: 125.56px;
+    }
+
+    .home__secondPt {
+        padding-top: 12.1%;
+    }
+
+    .secondPt__header {
+        font-size: 6vw;
+        line-height: 8vw;
+    }
+
+    .secondPt__header__underline {
+        top: 28%;
+        right: 7.4%;
+        width: 70%;
+    }
+
+    .secondPt__bottom_header {
+        font-size: 4.1vw;
+        margin-top: 0%;
+    }
+
+    .secondPt__content {
+        width: 100%;
+        float: left;
+        margin-top: 6.12%;
+    }
+
+    .secondPt__content__1 {
+        width: 68%;
+        height: 64vw;
+        border-radius: 12px;
+        margin-left: 16%;
+        margin-right: 16%;
+    }
+
+    .secondPt__content__2 {
+        width: 68%;
+        height: 64vw;
+        border-radius: 12px;
+        background-color: white;
+        float: left;
+        box-shadow: 0px 19.54466438293457px 39.08932876586914px 0px #03004D0A;
+        margin-left: 16%;
+        margin-right: 16%;
+        position: relative;
+        margin-top: 5%;
+    }
+
+    .secondPt__content__img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 8%;
+    }
+
+    .secondPt__content__header {
+        width: 100%;
+        text-align: center;
+        color: black;
+        font-family: 'Helvetica 45 Light', sans-serif;
+        font-size: 5.5vw;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+        padding-top: 6.4%;
+    }
+
+    .secondPt__content__bottomHeader {
+        width: 80%;
+        text-align: center;
+        color: #8C98A4;
+        font-family: 'Helvetica 45 Light', sans-serif;
+        font-size: 4.3vw;
+        font-weight: 400;
+        line-height: 5vw;
+        letter-spacing: 0px;
+        text-align: center;
+        padding-top: 4%;
+        padding-left: 10%;
+        padding-right: 10%;
+        /* padding-bottom: 16%; */
+    }
+
+    .home__thirdPt {
+        padding-top: 2.45%;
+        padding-bottom: 12.07%;
+    }
+
+    .thirdPt__header {
+        font-size: 9vw;
+    }
+
+    .thirdPt__content__leftSide {
+        display: none;
+    }
+
+    .thirdPt__content__rightSide {
+        width: 84%;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: .7%;
+    }
+
+    .thirdPt__content__rightSide__label {
+        font-size: 4.2vw;
+        line-height: 5vw;
+        text-align: center;
+    }
+
+    .thirdPt__content__rightSide__btn button {
+        font-size: 4vw;
+        height: 13vw;
+        width: 44%;
+    }
+
+    .home__fourthPt {
+        width: 100%;
+        float: left;
+        padding-top: 4.4%;
+        padding-bottom: 7.8%;
+    }
+
+    .home__fourthPt__header {
+        font-size: 6.3vw;
+        line-height: 8vw;
+    }
+
+    .row4__underline1 {
+        width: 40.1%;
+        height: 1.95vw;
+        bottom: 5%;
+        left: 11%;
+    }
+
+    .row4__underline2 {
+        width: 45%;
+        height: 1.95vw;
+        top: 23%;
+        left: 33%;
+    }
+
+    .home__fourthPt__content1 {
+        display: none;
+    }
+
+    .home__fourthPt__content2 {
+        display: block;
+        width: 90.33%;
+        margin-left: 4.02%;
+        padding-right: 4.65%;
+    }
+
+    .row4__content {
+        width: 84%;
+        float: left;
+        padding-top: 7.4%;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .row4__content__content {
+        width: 68.6%;
+        padding-right: .2%;
+    }
+
+    .row4__content1__content {
+        width: 65.14%;
+        padding-left: 7.4%;
+        padding-right: 7.66%;
+    }
+
+    .row4__content__content__header {
+        font-size: 5vw;
+    }
+
+    .row4__content__content__content {
+        font-size: 3.5vw;
+        line-height: 4.5vw;
+    }
+
+    .home__footer {
+        padding-top: 2%;
+        padding-bottom: 0%;
+    }
+
+    .home__footer__leftSide {
+        font-size: 5vw;
+        line-height: 6vw;
+        width: 84%;
+        padding-left: 8%;
+        padding-right: 8%;
+        float: left;
+    }
+
+    .home__footer__rightSide {
+        width: 20%;
+        padding-left: 8%;
+    }
+
+    .home__footer__rightSide button {
+        font-size: 4vw;
+        line-height: 0px;
+        height: 9vw;
+    }
+
+    .home__footer__copyRight {
+        width: 62.7%;
+        height: 10.5vw;
+        float: left;
+        font-family: 'Helvetica 45 Light', sans-serif;
+        font-size: 4vw;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0px;
+        text-align: right;
+        color: white;
+        padding-right: 9.3%;
+        padding-top: 3.7%;
+
+    }
+}
